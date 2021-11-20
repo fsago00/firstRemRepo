@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{86F7E38D-1979-473D-B5E3-C419BD8BF7EE}" SchemaVersion="94">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{86F7E38D-1979-473D-B5E3-C419BD8BF7EE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{86F7E38D-1979-473D-B5E3-C419BD8BF7EE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Suling_C#5" ID="{8E36037F-ADB5-4BD7-8D53-13301415AA7A}" ShortID="672478574">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B37E4F3E-01FB-436F-A188-7B2EE7179BFB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3705F57D-35BF-4E1F-9950-C0267A047597}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Suling_C#5" ID="{FA1168DD-645E-49F3-8EBA-8A99CD113B3E}" ShortID="37547448">
+							<Language>SFX</Language>
+							<AudioFile>Suling_C#5.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Suling_C#5" ID="{FA1168DD-645E-49F3-8EBA-8A99CD113B3E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
