@@ -30,6 +30,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Suling_F5" ID="{E624C2E0-01EB-4CD5-A8B2-CAA6A7E7A060}" ShortID="321555201">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-23</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B37E4F3E-01FB-436F-A188-7B2EE7179BFB}"/>
